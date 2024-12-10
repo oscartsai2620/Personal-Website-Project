@@ -1,0 +1,767 @@
+@media(max-width: 1440px){
+    /* Page 1 Responsiveness for 1440px */
+    #Page1 #my-info{
+        height: 550px;
+    }
+
+    #Page1 #my-intro{
+        font-size: 25px;
+    }
+
+    /* Page 4 Responsiveness for 1440px */
+    #Page4 #TopSection{
+        margin: 0 0.6%;
+    }
+
+    #Page4 body {
+        width: 1440px !important;
+        margin: 0 auto;
+    }
+
+    #Page4 #Big-Event-left-pic{
+        transform: scale(80%) rotate(-10deg)!important;
+        left: -200px !important;
+    }
+
+    #Page4 #Big-Event-right-pic{
+        transform: scale(80%) rotate(10deg) !important;
+        left: -10px !important;
+        top: 30px !important;
+    }
+
+    #Page4 #AHC-left-pic{
+        transform: rotate(-10deg) scale(80%) !important;
+        left: -100px !important;
+    }
+
+    #Page4 #AHC-right-pic{
+        width: 500px !important;
+        top: -350px !important;
+        left: 400px !important;
+    }
+
+    #Page4 #TopSection{
+        margin: 0 0.6%;
+    }
+
+    #Page4 body{
+        width: 1280px !important;
+    }
+
+    #Page4 #Big-Event-left-pic{
+        transform: scale(80%) rotate(-10deg)!important;
+        left: -150px !important;
+    }
+
+    #Page4 #Big-Event-right-pic{
+        transform: scale(90%) rotate(10deg) !important;
+        left: -100px !important;
+        top: 30px !important;
+    }
+
+    #Page4 #AHC-left-pic{
+        transform: rotate(-10deg) scale(80%) !important;
+        left: -100px !important;
+    }
+
+    #Page4 #AHC-right-pic{
+        width: 500px !important;
+        top: -350px !important;
+        left: 400px !important;
+    }
+
+}
+@media screen and (max-device-width: 1280px){
+    /* Page 1 Responsiveness for 1280px */
+    #Page1 #my-intro{
+        font-size: 22px;
+    }
+
+    #Page1 #concert{
+        margin-left: -30%;
+    }
+
+    #Page1 #friends{
+        left: -10px;
+    }
+
+    /* Page 3 Responsiveness for 1280px */
+    #Page3 #Resume{
+        height: 770px !important;
+    }
+
+}
+
+html{
+    min-width: 1280px;
+    min-height: 720px;
+}
+
+/* Page 1 CSS */
+#Page1{
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;    line-height: 25px;
+    font-size: 20px;
+    color: black;
+    background-color: rgba(17, 0, 0, 0.6);
+    background-blend-mode: lighten;
+    background-image: url(images/MenuBackgroundCloud.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 10;
+    padding: 10;
+    height: 100%;
+}
+
+#TopSection{
+    margin-top: 1%;
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+    justify-content: space-between;
+    background-color: lightblue;
+    font-size: 25px;
+    height: 75px;
+    border-radius: 10px;
+    outline: 5px solid black;
+}
+
+#toggle-theme{
+    margin: 1%;
+    width: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: rgba(11, 7, 45, 0.7);
+    border-radius: 10px;
+    outline: 2px solid black;
+}
+
+.MenuWords{
+    font-family: "Times New Roman", Times, serif;
+    align-content: center;   
+}
+
+#Page1 .page-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #77c4d3;;
+    margin: 5%;
+    margin-right: 10%;
+    font-family: "Times New Roman", Times, serif;    
+    order: right;
+}
+
+#Page1 .introBox{
+    position: relative;
+    display: flex;
+    padding: 3%;
+}
+
+#Page1 #IntroMe{
+    width: 400px;
+    border: 6px solid white; 
+    border-style: inset;
+}
+
+#Page1 #About_Me{
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color:  rgb(231, 110, 110);
+    letter-spacing: 2px;
+    font-size: 35px;
+    color: white;
+    text-underline-offset: 8px;
+    font-weight: 900;
+}
+
+#Page1 #my-info{
+    margin-left: 3%;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 2px;
+    line-height: 50px;
+    color: black;
+}
+
+#Page1 #my-intro{
+    padding: 5% 5%;
+}
+
+#Page1 .Hobbies-wrap{
+    position: relative;
+    margin-top: 3%;
+    padding: 5%;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    left: -80px;
+
+}
+
+#Page1 .Hobbies-head{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: -6%;
+    padding: 3%;
+    font-size: 30px;
+    width: 220px;
+    height: 30px;
+    background-color: rgb(231, 110, 110);
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    font-weight: 900;
+}
+
+#Page1 .Hobbies-describe{
+    width: 80%;
+    font-size: 30px;
+    word-spacing: 2px;
+    line-height: 40px;
+
+}
+
+#Page1 .Hobbies-describe a{
+    color: blue;
+}
+
+#Page1 .Hobbies-pics{
+    margin-top: 3%;
+    width: 30%;
+    height: 800px;
+}
+
+#Page1 #concert{
+    position: relative;
+    left: -80px;
+    top: -10px;
+    width: 400px;
+    border-style: inset;
+    border-width: 10px;
+    border-color: white;
+    border-radius: 100px;
+    z-index: 1;
+}
+
+#Page1 #friends{
+    position: relative;
+    right: -70px;
+    top: -100px;
+    width: 500px;
+    border-style: inset;
+    border-width: 10px;
+    border-color: white;
+    border-radius: 100px;
+}
+
+#Page1 .Journey-wrap{
+    position: relative;
+    display: flex;
+    margin-top: 2%;
+    width: auto;
+    height: auto;
+}
+
+#Page1 #Graduate-pic{
+    margin-left: 1%;
+    width: 500px;
+    height: 550px;
+    border: 6px solid white; 
+    border-style: inset;
+    border-radius: 30px;
+}
+
+#Page1 .Journey-describe{
+    position: relative;
+    left: 50px;
+    width: 100%;
+    height: 600px;
+    text-align: justify;
+}
+
+#Page1 .Journey-head{
+    position: relative;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    font-weight: 900; 
+    text-align: center;
+    font-size: 35px;
+    padding: 3%;
+    width: 250px;
+    height: 4%;
+    background-color:  rgb(231, 110, 110);
+    z-index: 1;
+}
+
+#Page1 .Journey-p{
+    position: relative;
+    top: -10%;
+    left: -3%;
+    width: 100%;
+    padding: 5%;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 25px;
+    word-spacing: 2px;
+    line-height: 40px;
+}
+
+/* Page 2 CSS */
+#Page2{
+    font-family: "Times New Roman", Times, serif;
+    line-height: 25px;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(172, 229, 252);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 10;
+    padding: 10;
+    height: 200vh;
+
+}
+
+#Page2 .page-wrapper{
+    width: 99%;
+    background: url(images/img-lg-vert-border.png) repeat-y top left, url(images/img-lg-vert-border.png) repeat-y right 100px;
+    background-size: 0.6em;
+    margin: 0.8em auto;
+    padding: 0 2px;
+    height: auto;
+}
+
+#Page2 .page-wrapper:before {
+    content: "";
+    height: 20px;
+    background: url(images/img-lg-horiz-border.png) repeat-x 0 -2px;
+    background-size: 40em;
+    display: block;
+    
+}
+
+#Page2 .list-head{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 4em;
+    font-style: italic;
+}
+
+#Page2 .project-list{
+    background:url(images/img-lg-horiz-border.png) repeat-x top right,
+    url(images/img-lg-horiz-border.png) repeat-x bottom left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: left;
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 84%;
+}
+
+#Page2 ul{
+    list-style: none;
+}
+
+#Page2 .Project-names{
+    font-size: 30px;
+    word-spacing: 5px;
+    line-height: 2em;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#Page2 .Project-names:hover{
+    color: grey;
+}
+
+#Page2 .project-describe-head{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-top: 4%;
+    padding-bottom: 6%;
+    text-align: center;
+    font-size: 4em;
+    font-style: italic;
+    background: url(images/img-lg-horiz-border.png) repeat-x bottom left;
+}
+
+#Page2 .project-describe{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    padding-left: 2%;
+    line-height: 50px;
+
+}
+
+#Page2 .project-describe li p{
+    font-size: 1.25em;
+    line-height: 2;
+    word-spacing: 2;
+}
+
+#Page2 li{
+    list-style-type: none;
+}
+
+#Page2 #github-circle-image{
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    margin-left: 10px; 
+    vertical-align: middle;
+}
+
+#Page2 #github-circle-image:hover{
+    transform: scale(1.2);
+}
+
+#Page2 .Bottom-border{
+    background-image: url(images/img-lg-horiz-border.png);
+    width: 100%;
+    height: 15px;
+    position: relative;
+    bottom: auto;
+}
+
+/* Page 3 CSS */
+#Page3{
+    font-family: "Times New Roman", Times, serif;
+    line-height: 25px;
+    font-size: 20px;
+    color: black;
+    background-image: url(images/Page3Background.jpg);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 10;
+    padding: 10;
+    height: 250vh;
+
+}
+
+#Page3 .page-wrapper{
+    width: 90%;
+    height: 100%;
+    margin: 0.8em auto;
+    padding: 0 px;
+}
+
+#Page3 #me{
+    width: 10%;
+    border-radius: 50%;
+    position: sticky;
+    top: 20px;
+    margin-left: -5%;
+    border: 3px solid blue;
+    z-index: 1;
+}
+
+#Page3 #linkedin{
+    width: 10%;
+    border-radius: 50%;
+    position: sticky;
+    top: 20px;
+    border: 3px solid yellow;
+    z-index: 1;
+}
+
+#Page3 #linkedin:hover{
+    transform: scale(1.2);
+}
+
+#Page3 #Resume{
+    position: relative;
+    margin-top: -10.5%;
+    margin-left: 25%;
+    width: 50%;
+    height: 1100px;
+}
+
+#Page3 .Text-head{
+    text-align: center;
+    width: 100%;
+    line-height: 2;
+    margin-top: 3%;
+    text-decoration: underline;
+    font-size: 3em;
+}
+
+#Page3 #Explaination{
+    width: 60%;
+    margin: 0 auto;
+    padding: 1% 0;
+    line-height: 1.5;
+    font-size: 25px;
+    text-align: justify;
+
+}
+
+/* Page 4 CSS */
+#Page4{
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 25px;
+    font-size: 20px;
+    color: black;
+    background-image: url(images/TXAM_BigEvent_2018_9.jpg);
+    background-color: rgba(17, 0, 0, 0.7);
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 150vh;
+
+}
+
+#Page4 .page-wrapper{
+    width: 99%;
+    bottom: 0;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#Page4 .color-block{
+    position: relative;
+    padding: 0 2%;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(172, 229, 252, 0.8);
+}
+
+#Page4 .header{
+    margin: 2% auto;
+    text-align: center;
+    padding: 2%;
+    width: 80%;
+    font-size: 1.5em;
+    word-spacing: 2;
+    line-height: 1.5;
+}
+
+#Page4 li{
+    margin: 0 2%;
+    list-style-type: none;
+}
+
+#Page4 .list-head{
+    margin-top: 5%;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#Page4 .list-head a{
+    text-decoration: none;
+}
+
+#Page4 .list-head:hover{
+    transform: scale(1.1);
+}
+
+#Page4 .event-describe{
+    text-align: justify;
+    word-spacing: 2px;
+    line-height: 2;
+    padding-left: 2%;
+    font-size: 1.2em;
+}
+
+#Page4 .pic-wrap1{
+    height: auto;
+    display: flex;
+}
+
+#Page4 .pic-wrap2{
+    height: 550px;
+}
+
+#Page4 #Big-Event-left-pic{
+    border: 5px solid black;
+    position: relative;
+    transform: rotate(-10deg);
+    width: 550px;
+}
+
+#Page4 #Big-Event-right-pic{
+    border: 5px solid black;
+    position: relative;
+    width: 500px;
+    left: 200px;
+    top: -80%;
+    transform: rotate(10deg);
+}
+
+#Page4 #AHC-left-pic{
+    border: 5px solid black;
+    width: 450px;
+    position: relative;
+    bottom: -50px;
+    transform: rotate(-10deg);
+}
+
+#Page4 #AHC-right-pic{
+    border: 5px solid black;
+    width: 600px;
+    position: relative;
+    left: 200px;
+    bottom: -30px;
+    transform: rotate(10deg);
+}
+
+/* Page 5 CSS */
+#Page5{
+    font-family: "tablet-gothic", verdana, arial, sans-serif;
+    line-height: 25px;
+    font-size: 20px;
+    color: black;
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 10;
+    padding: 10;
+    height: 300vh;
+}
+
+#Page5 #KpopSection {
+    padding: 20px;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Page5 #KpopSection h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+#Page5 #KpopGallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#Page5 .kpop-group {
+    text-align: center;
+    margin: 10px;
+}
+
+#Page5 .kpop-group img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#Page5 #KpopGenres {
+    padding: 20px;
+    background-color: #e6e6fa;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Page5 #KpopGenres h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+#Page5 .genre {
+    margin-bottom: 20px;
+}
+
+#Page5 .genre h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+#Page5 .genre p {
+    font-size: 18px;
+    color: #666;
+}
+
+#Page5 #FavoriteGroups {
+    padding: 20px;
+    background: #fff0f5 url('images/background-pattern.png') repeat;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+#Page5 #FavoriteGroups h2 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#Page5 .group {
+    text-align: center;
+    margin: 20px;
+    position: relative;
+}
+
+#Page5 .group img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 5px solid #ff1493;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+#Page5 .group img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    border-color: #ff69b4;
+}
+
+#Page5 .group h3 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+    position: relative;
+}
+
+#Page5 .group p {
+    font-size: 18px;
+    color: #666;
+    margin: 0 10px;
+    line-height: 1.5;
+}
+
+#Page5 #FavoriteGroups::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    border: 5px dashed #ff1493;
+    border-radius: 15px;
+    box-sizing: border-box;
+    pointer-events: none;
+    z-index: -1;
+}
+
+

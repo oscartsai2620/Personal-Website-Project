@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSCE331_Project1_TechPage</title>
+    <link id="mainStyleSheet" rel="stylesheet" href="p1style.css">
+</head>
+<header>
+    <div id="TopSection">
+        <button id="toggle-theme" title="Toggle Theme">🌓︎</button>
+        <div class = "MenuWords",id="HomePage">
+            <a href="index.html" >Home</a>
+        </div>
+        <div class = "MenuWords",id="TechnicalPage">
+            <a href="Page2.html" >Technical</a>
+        </div>
+        <div class = "MenuWords",id="QualificationPage">
+            <a href="Page3.html" >Qualification</a>
+        </div>
+        <div class = "MenuWords",id="ServicePage">
+            <a href="Page4.html" >Service</a>
+        </div>
+        <div class = "MenuWords",id="AIPage">
+            <a href="Page5.html" >AI</a>
+        </div>
+    </div>
+</header>
+<body id="Page2">
+    <div class="page-wrapper">
+        <div class="list-wrapper">
+            <header class="list-head">
+                Oscar Tsai's Project List:
+            </header>
+            <nav class="project-list">
+                <ul>
+                    <li>
+                        <a href="#CPU-Design" class="Project-names">RISC-V CPU Design</a>.....
+                        <a href="https://github.com/oscartsai2620/RISC-V-Sequential-CPU-Design" target="_blank"><img src="images/github-logo.png" alt="github-logo" id="github-circle-image"></a>
+                    </li>
+                    <li>
+                        <a href="#Aggie Shell" class="Project-names">Aggie Shell</a>..... 
+                        <a href="https://github.com/oscartsai2620/Aggie-Shell"  target="_blank"><img src="images/github-logo.png" alt="github-logo" id="github-circle-image"></a>
+                    </li>
+                    <li>
+                        <a href="#RPG-Game" class="Project-names">Texted-Based RPG Game</a>.....<a href="https://github.com/oscartsai2620/Text-based-RPG-Game" target="_blank"><img src="images/github-logo.png" alt="github-logo" id="github-circle-image"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="describe-wrapper">
+            <header class="project-describe-head">
+                Project Description:
+            </header>
+            <div class="project-describe">
+                    <li id="CPU-Design">
+                        <h1>
+                            RISC-V CPU-Design
+                        </h1>
+                        <p>
+                            This is a RISC-V architecture control processing unit (CPU) design. The design was done through Logisim, a software that simulates digital logic circuits. The design utilizes built in components like counters, comparators, and more to achieve a cleaner design. The CPU design is capable of executing sorting algorithms, matrix multiplication, and other sequential instructions using Y86 (X86-like) assembly language.
+                        </p>
+                    </li>
+                    <li id="Aggie Shell">
+                        <h1>
+                            Aggie Shell
+                        </h1>
+                        <p>
+                            This is a personal simple designed linux shell that users can execute almost all linux command. The project utilzies the concepts of parent and child processes with file descriptors and pipes to execute long sequences of linux commands and not just one command at a time. 
+                        </p>
+                    </li>
+                    <li id="RPG-Game">
+                        <h1>
+                            Text-Based RPG Game
+                        </h1>
+                        <p>
+                            The text-based RPG game features three classes: Warriors, Magicians, and Assasins. Players can engage in battles against monsters or battle with random generated NPCs to gain experience and level up to unlock different skills. This game also has consumables to for players to restore status. In addition, there is an attribute system where players can add points to make their characters stronger. The game also includes a save and load feature, allowing players to preserve their progress and continue their adventure at a later time.
+                        </p>
+                    </li>
+            </div>
+        </div>
+        <div class="Bottom-border"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
